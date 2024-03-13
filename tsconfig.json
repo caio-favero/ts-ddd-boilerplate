@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2022",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "useUnknownInCatchVariables": false
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "**/__test__/*",
+    "**prettier*",
+    "test",
+    "**jest**"
+  ]
+}
